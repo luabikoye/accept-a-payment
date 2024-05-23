@@ -1,3 +1,4 @@
 Flask==2.1.2
 python-dotenv==0.20.0
 stripe==2.74.0
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
